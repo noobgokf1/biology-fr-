@@ -1,0 +1,62 @@
+/* Body and general page settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text color */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #1E1E1E; /* Darker background for container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Soft shadow for depth */
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #F5F5F5; /* Lighter color for headings */
+    font-weight: 600;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #333; /* Darker border for contrast */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333; /* Dark background for table headers */
+    color: #E0E0E0; /* Light text for header */
+}
+
+tr:nth-child(even) {
+    background-color: #2A2A2A; /* Dark gray for alternating rows */
+}
+
+tr:hover {
+    background-color: #444; /* Hover effect for rows */
+}
+
+/* Unordered list styles */
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    color: #E0E0E0; /* Light text for lists */
+}
+
+p {
+    line-height: 1.6;
+    color: #D1D1D1; /* Slightly muted color for paragraphs */
+}
